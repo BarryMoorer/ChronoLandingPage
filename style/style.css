@@ -77,9 +77,9 @@ nav a {
 
     .menu-icon {
         display: flex;
-        position: relative;
         font-size: 171%;
-        left: 77%;
+        margin: 9px -4px;
+        width: 16%;
     }
 
     .menu-UL {
