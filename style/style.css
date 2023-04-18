@@ -83,7 +83,7 @@ nav a {
     }
 
     .products {
-        display:
+        margin: auto;
     }
 
     .menu-UL {
@@ -183,7 +183,7 @@ nav a {
     .product-item3 {
         text-align: center;
         border: 1px black solid;
-        margin-right: 57px;
+        /* margin-right: 57px; */
         margin-top: 57px;
         margin-left: 29px;
         /* padding: 65px; */
@@ -390,7 +390,7 @@ nav a {
 img.carousel-img {
     display: block;
     /* height: 400px; */
-    width: 75%;
+    /* width: 75%; */
     object-fit: cover;
 }
 
