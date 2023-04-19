@@ -55,6 +55,9 @@ nav a {
 .menu-search.active {
     display: inline-block;
     position: relative;
+    border: none;
+    background: #4342424f;
+    border-radius: 24px;
     height: 2dvh;
     margin-right: 7px;
 }
@@ -74,6 +77,9 @@ nav a {
 
 @media(max-width: 968px) {
 
+    .container {
+        width: 100dvw;
+    }
 
     .menu-icon {
         display: flex;
@@ -183,16 +189,15 @@ nav a {
     .product-item3 {
         text-align: center;
         border: 1px black solid;
-        /* margin-right: 57px; */
-        margin-top: 57px;
-        margin-left: 29px;
-        /* padding: 65px; */
+        margin: 57px;
     }
 
     /* Footer */
 
     footer {
         display: flex;
+        width: 100%;
+        /* margin: 30px 39px; */
     }
 
     form {
@@ -215,11 +220,9 @@ nav a {
     }
 
     footer ul {
-        position: relative;
-        left: -199px;
-        top: 34px;
-        font-size: 120%;
-        padding-right: 31px;
+        /* left: -199px; */
+        /* top: 34px; */
+        /* padding-right: 31px; */
     }
 
     form p {
@@ -228,9 +231,9 @@ nav a {
     }
 
     .cCareUL {
-        /* position: relative; */
         /* left: 275px; */
-        top: -224px;
+        /* top: -224px; */
+        margin: 24px;
     }
 
     footer ul li {
